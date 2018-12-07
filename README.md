@@ -1,5 +1,7 @@
 # QuickUninstaller
 
+Plugin Details: http://www.wox.one/plugin/242
+
 *(Please forgive me for my broken English expression)*
 
 > **Update Log**
