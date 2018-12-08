@@ -18,4 +18,4 @@ Plugin Details: http://www.wox.one/plugin/242
 - **Note**: This plugin was only tested in my laptop (which runs on Windows 10 Professional 1809 Simplified Chinese Version), so it **might** have some problems while running on other platform.
 
 **What's new in next version**: 
-1. It has not been decided.
+1. Performance Improvement
