@@ -5,6 +5,8 @@ Plugin Details: http://www.wox.one/plugin/242
 *(Please forgive me for my broken English expression)*
 
 > **Update Log**
+>
+> Version 1.1.2: Found a bug and ate it.
 > 
 > Version 1.1.0:
 > 
@@ -18,4 +20,4 @@ Plugin Details: http://www.wox.one/plugin/242
 - **Note**: This plugin was only tested in my laptop (which runs on Windows 10 Professional 1809 Simplified Chinese Version), so it **might** have some problems while running on other platform.
 
 **What's new in next version**: 
-1. Performance Improvement
+1. It has not been decided.

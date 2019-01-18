@@ -162,10 +162,12 @@ namespace QuickUninstaller
                         IcoPath = "Images\\UninstallerIcon.png",  //相对于插件目录的相对路径
                         Action = e =>
                         {
-                        // 处理用户选择之后的操作
-                        Process process = Process.Start(p.UninstallerPath, p.UninstallerArgument);
-                        //返回false告诉Wox不要隐藏查询窗体，返回true则会自动隐藏Wox查询窗口
-                        return false;
+                            // 处理用户选择之后的操作
+                            try
+                            { Process process = Process.Start(p.UninstallerPath, p.UninstallerArgument); }
+                            catch { }
+                            //返回false告诉Wox不要隐藏查询窗体，返回true则会自动隐藏Wox查询窗口
+                            return false;
                         }
                     });
                 }); //Add all items in 'programInfos' to the results
@@ -205,7 +207,9 @@ namespace QuickUninstaller
                                 Action = e =>
                                 {
                                     // 处理用户选择之后的操作
-                                    Process process = Process.Start(p.UninstallerPath, p.UninstallerArgument);
+                                    try
+                                    { Process process = Process.Start(p.UninstallerPath, p.UninstallerArgument); }
+                                    catch {}
                                     //返回false告诉Wox不要隐藏查询窗体，返回true则会自动隐藏Wox查询窗口
                                     return false;
                                 }
